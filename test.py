@@ -1,6 +1,6 @@
-even_count = 0
-for i in range(1, 10):
-    if i % 2 == 0:
-        print(i)
-        even_count += 1
-print(f"We have {even_count} even numbers")
+def calculation(x, y):
+    return x+y, x-y
+
+
+res = calculation(40, 10)
+print(res)
